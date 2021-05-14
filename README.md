@@ -32,7 +32,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Apply hasura migrations
-        uses: tibotiber/hasura-action@master
+        uses: zeryabkhan91/hasura-action@master
         with:
           args: migrate apply
         env:
